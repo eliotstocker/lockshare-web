@@ -1,0 +1,133 @@
+:root {
+    --primary-color: #b0bec5;
+    --primary-light-color: #e2f1f8;
+    --primary-dark-color: #808e95;
+
+    --secondary-color: #4527a0;
+    --secondary-light-color: #7953d2;
+    --secondary-dark-color: #000070;
+
+    --horizontal-spacing: 25px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background: #eeeeee;
+}
+
+header {
+    background: var(--primary-color);
+    color: #FFFFFF;
+}
+
+header .header-content {
+    padding: 10px 0;
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+header #logo {
+    vertical-align: middle;
+    fill: #ffffff;
+    padding-bottom: 8px;
+}
+
+header .title {
+    font-size: 28px;
+}
+
+header .title .name {
+    font-weight: 100;
+}
+
+header .title .name .bold {
+    font-weight: 300;
+}
+
+header nav {
+    text-align: left;
+    margin-left: -10px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333333;
+    border-left: 1px solid #333333;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+header nav a.active {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+header nav a:first-child {
+    border-left: none;
+}
+
+footer {
+    background: var(--secondary-light-color);
+    padding: 20px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    min-height: calc(100% - 186px);
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+
+main .marvel-device {
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin-right: calc(var(--horizontal-spacing) + 10px);
+    position: relative;
+}
+
+main .marvel-device.note8 {
+    width: 370px !important;
+    height: 781px !important;
+}
+
+main .marvel-device.macbook {
+    transform: scale(0.35) translate(-85%, -85%);
+}
+
+main .laptop-container {
+    width: 425px;
+    margin-right: var(--horizontal-spacing);
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+footer a {
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 600px) {
+    header nav {
+        position: absolute;
+        top: calc(50% - 10px);
+        right: 10px;
+        text-align: right;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    main .marvel-device {
+        display: none;
+    }
+
+    main .laptop-container {
+        display: none;
+    }
+}
