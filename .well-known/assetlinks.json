@@ -1,0 +1,5 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "re.locksha.mobile",
+    "sha256_cert_fingerprints": ["F3:70:EC:A8:A7:4C:BD:C5:66:EB:73:4D:8C:93:9E:26:2E:83:4E:CB:2F:78:81:7B:FF:7C:CE:3E:88:67:7F:0D"] }
+}]
