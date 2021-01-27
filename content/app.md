@@ -8,4 +8,4 @@ don't worry though, if you share a lock with a user that doest have the app inst
 
 ## What about other Platforms:
 
-I have been considering creating an iOS app, but there are som financial constraints to consider, I'd also like to gauge interest, if youde like this please tweet at me [@eliottsocker](https://twitter.com/eliotstocker)
+I have been considering creating an iOS app, but there are som financial constraints to consider, I'd also like to gauge interest, if youde like this please tweet at me [@eliotstocker](https://twitter.com/eliotstocker)
